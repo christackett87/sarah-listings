@@ -1,31 +1,51 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Sarah's Listings</title>
+    <title>Sarah Perkins - Featured Listings</title>
     <style>
-        body { font-family: Arial, sans-serif; padding: 20px; }
-        .listing { border: 1px solid #ccc; padding: 10px; margin-bottom: 15px; border-radius: 8px; }
-        .price { font-size: 20px; font-weight: bold; }
-        .location { font-style: italic; }
-        .link { margin-top: 10px; display: block; }
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f7f7f7;
+            padding: 20px;
+            margin: 0;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        .listing {
+            background: white;
+            max-width: 700px;
+            margin: 20px auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .listing img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .details {
+            padding: 15px;
+        }
+        .price {
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: #27ae60;
+            margin-bottom: 8px;
+        }
+        .view-link {
+            text-decoration: none;
+            color: #3498db;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
     <h1>Sarah Perkins - Featured Listings</h1>
 
-    <div class="listing">
-        <div class="price">$135,000</div>
-        <div class="location"></div>
-        <a class="link" href="https://www.mossyoakproperties.com/listing/ozark-cabin" target="_blank">View Listing</a>
-    </div>
-    
-    <div class="listing">
-        <div class="price">$199,500</div>
-        <div class="location"></div>
-        <a class="link" href="https://www.mossyoakproperties.com/listing/40-acre-recreation" target="_blank">View Listing</a>
-    </div>
-    
 </body>
 </html>
